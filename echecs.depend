@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1584205420 source:o:\cours\2i2d\b.projet_c++_1\echecs\main.cpp
+	<iostream>
+
+1702074412 source:o:\cours\2i2d\b.projet_c++_1\echecs\piece.cpp
+	"Piece.h"
+
+1702074792 o:\cours\2i2d\b.projet_c++_1\echecs\piece.h
+
+1584205420 source:d:\code\c++\jeux d'échec\nom_prenom_classe\main.cpp
+	<iostream>
+
