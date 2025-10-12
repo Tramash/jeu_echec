@@ -34,7 +34,7 @@ void Piece::print()
         case CAVALIER :
             piece = 'C'; 
             break;
-        case REINE :
+        case DAME :
             piece = 'RE'; 
             break;  
         case ROI :
@@ -57,7 +57,7 @@ void Piece::print()
         case CAVALIER :
             piece = 'c'; 
             break;
-        case REINE :
+        case DAME :
             piece = 're'; 
             break;  
         case ROI :
