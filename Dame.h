@@ -9,6 +9,8 @@ class Dame : public Piece
     public:
         Dame();
         virtual ~Dame();
+        
+        bool deplacement(Position initiale, Position finale);  
 
     protected:
 

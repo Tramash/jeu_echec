@@ -10,6 +10,8 @@ class Roi : public Piece
         Roi();
         virtual ~Roi();
 
+        bool deplacement(Position initiale, Position finale);  
+
     protected:
 
     private:

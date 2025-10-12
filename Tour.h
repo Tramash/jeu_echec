@@ -1,14 +1,15 @@
 #ifndef TOUR_H
 #define TOUR_H
 
-#include <Piece.h>
-
+#include "Piece.h"   
 
 class Tour : public Piece
 {
     public:
-        Tour();
-        virtual ~Tour();
+        Tour();              
+        virtual ~Tour();     
+
+        bool deplacement(Position initiale, Position finale);  
 
     protected:
 

@@ -9,22 +9,22 @@ struct Position
 typedef struct Position Position;
 
 enum Couleur {Blanc = 0, Noir = 1};
-enum Type {Tour, Fou, Cavalier, Reine, Roi, Pion};
+enum Type {TOUR, FOU, CAVALIER, DAME, ROI, PION};
 
 
 class Piece
 {
     public:
-        Piece();
-        virtual ~Piece();
+        Piece(); // constructeur
+        virtual ~Piece(); // desctructeur
 
-        bool deplacement(Position initiale, Position finale);
-        void print();
+        bool deplacement(Position initiale, Position finale); // permet de tester si le déplacement de la pièce est licite
+        void print(); // afficher le pion présent dans la case
 
-        Couleur getCouleur();
+        Couleur getCouleur(); // associer a une variable de type Couleur
         void setCouleur(Couleur couleur);
 
-        Type getType();
+        Type getType(); // associer a une variable de type Type
         void setType(Type type);
 
     protected:

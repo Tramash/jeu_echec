@@ -10,6 +10,8 @@ class Cavalier : public Piece
         Cavalier();
         virtual ~Cavalier();
 
+        bool deplacement(Position initiale, Position finale);  
+
     protected:
 
     private:

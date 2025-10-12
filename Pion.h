@@ -6,9 +6,12 @@
 
 class Pion : public Piece
 {
+
     public:
         Pion();
         virtual ~Pion();
+
+        bool deplacement(Position initiale, Position finale);  
 
     protected:
 

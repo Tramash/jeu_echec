@@ -10,6 +10,8 @@ class Fou : public Piece
         Fou();
         virtual ~Fou();
 
+        bool deplacement(Position initiale, Position finale);  
+
     protected:
 
     private:
