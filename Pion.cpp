@@ -3,8 +3,6 @@
 Pion::Pion()
 {
     //ctor
-    setCouleur(Blanc);
-    setType(PION);
 }
 
 Pion::~Pion()

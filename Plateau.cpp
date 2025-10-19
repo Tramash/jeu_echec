@@ -9,3 +9,13 @@ Plateau::~Plateau()
 {
     //dtor
 }
+
+void Plateau:print()
+{
+
+}
+
+void Plateau:init()
+{
+    
+}

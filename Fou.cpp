@@ -3,8 +3,6 @@
 Fou::Fou()
 {
     //ctor
-    setCouleur(Blanc);
-    setType(FOU);
 }
 
 Fou::~Fou()

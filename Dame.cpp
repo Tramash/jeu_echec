@@ -3,8 +3,6 @@
 Dame::Dame()
 {
     //ctor
-    setCouleur(Blanc);
-    setType(DAME);
 }
 
 Dame::~Dame()

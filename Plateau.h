@@ -7,8 +7,8 @@
 class Plateau
 {
     public:
-        Plateau();
-        virtual ~Plateau();
+        Plateau(); // constructeur 
+        virtual ~Plateau(); // desctructeur 
 
     protected:
 

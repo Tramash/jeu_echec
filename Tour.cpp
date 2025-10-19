@@ -2,9 +2,7 @@
 
 Tour::Tour()
 {
-    //ctor
-    setType(TOUR);        
-    setCouleur(Blanc);    
+    //ctor  
 }
 
 Tour::~Tour()

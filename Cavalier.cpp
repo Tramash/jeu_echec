@@ -3,8 +3,6 @@
 Cavalier::Cavalier()
 {
     //ctor
-    setCouleur(Blanc);
-    setType(CAVALIER);
 }
 
 Cavalier::~Cavalier()

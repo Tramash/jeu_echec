@@ -3,8 +3,6 @@
 Roi::Roi()
 {
     //ctor
-    setCouleur(Blanc);
-    setType(ROI);
 }
 
 Roi::~Roi()

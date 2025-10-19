@@ -1,11 +1,10 @@
 #include "Piece.h"
 #include <iostream>   
+#include <stdio.h>
 
 Piece::Piece()
 {
     //ctor
-    couleur = Blanc;
-    type = PION; 
 }
 
 Piece::~Piece()
@@ -35,10 +34,10 @@ void Piece::print()
             piece = 'C'; 
             break;
         case DAME :
-            piece = 'RE'; 
+            piece = 'D'; 
             break;  
         case ROI :
-            piece = 'RO'; 
+            piece = 'R'; 
             break; 
         case PION :
             piece = 'P'; 
@@ -58,17 +57,16 @@ void Piece::print()
             piece = 'c'; 
             break;
         case DAME :
-            piece = 're'; 
+            piece = 'd'; 
             break;  
         case ROI :
-            piece = 'ro'; 
+            piece = 'r'; 
             break; 
         case PION :
             piece = 'p'; 
             break;                                     
     }
-    std::cout << piece;   // <-- std::cout au lieu de cout seul
-
+    std::cout << piece;   
 
 }
 
